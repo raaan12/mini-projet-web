@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter";
+    background: #ecf1ff;
+    font-size: 0.95rem;
+}
+.content {
+    position: relative;
+    width: 900px;
+    height: 1000px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+.slider {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 0.75s;
+}
+.slider-info {
+    position: absolute;
+    width: auto;
+    z-index: 1;
+    top: 0.75rem;
+    right: 0rem;
+    background: #0135ec;
+    color: #fff;
+    border-radius: 15px 0 0 15px;
+    padding: 0.5rem 0.75rem;
+    transition: 1s;
+}
+.slider-image {
+    opacity: 1;
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    transition: 1s;
+}
+.slider-image-active {
+    opacity: 1;
+}
+.btn-chevron {
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    background: #0135ec;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 100%;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.left {
+    left: 1rem;
+}
+.right {
+    right: 1rem;
+}
+.indicator {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+.indicator-active {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background: #0135ec;
+    padding: 0.3rem;
+    transition: 0.5s all;
+    border-radius: 100%;
+}

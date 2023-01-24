@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+ <title>Fiche Multiassociation</title>
+ <meta charset=UTF-8></meta>
+ <meta name="Description"
+ content="C'est une fiche multiassociation" >
+ </meta>
+ </head>
+
+<body>
+    <table width="100%"> 
+        <tr>
+            <td width="30%"> </td >
+            <td width="40%"> <h1  >Piquenique Multiassociations</h1>
+                <img  src=".\repas.jpg">
+                <h2  >Inscriptions</h2>
+                
+                <form method="post" action="">
+                    <p>
+                    <label for="name">Prenom :</label>
+                    <input type="text" name="pseudo" id="pseudo" />
+                    <br />
+                    <br/>
+                    <label for="pass">Mot de passe :</label>
+                    <input type="password" name="pass" id="pass" />
+                    <br />
+                    <br/>
+                    <label for="name">Association :</label>
+                    <SELECT NAME="Association" SIZE=1>
+                        <OPTION SELECTED >Association X
+                        <OPTION>Association Y
+                        <OPTION>Association Z
+                       </SELECT>
+                    <br />
+                    <br/>
+                    <label for="name">Disponibilité pour la semaine du :</label>
+                    <input type="date" name="date" id="date" />
+                    <br/>
+                    <input type="checkbox" id="Lundi" value="Lundi">
+                    <label for="date"> Lundi</label>
+                    <input type="checkbox" id="Mardi" value="Mardi">
+                    <label for="date"> Mardi</label>
+                    <input type="checkbox" id="Mercredi" value="Mercredi">
+                    <label for="date"> Mercredi</label>
+                    <input type="checkbox" id="Jeudi" value="Jeudi">
+                    <label for="date"> Jeudi</label>
+                    <input type="checkbox" id="Vendredi" value="Vendredi">
+                    <label for="date"> Vendredi</label>
+                <br/>
+                <br/>
+                
+                    <label for="name">Contribution :</label>
+                    <input type="radio" id="radio" name="radio">
+                    <label for="text"> Entree</label>
+                    <input type="radio" id="radio" name="radio">
+                    <label for="text"> Plat</label>
+                    <input type="radio" id="radio" name="radio">
+                    <label for="text"> Dessert</label>
+                    </p>
+                    <INPUT TYPE="SUBMIT" NAME= "SUBMIT" VALUE="Soumettre">
+                    </form></td >
+            <td width="30%"> </td >
+
+        </tr>
+    </table>
+
+
+</body>
+
+</html>

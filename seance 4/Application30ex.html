@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Application de 30 exemples</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script  src="jquery.js"></script>
+<script  src="Application30ex.js"></script>
+
+
+  </head>
+  <style>
+    #monimage{
+    background:url('./repas.jpg') no-repeat top left;
+    }
+  </style>
+
+  <body>
+    <h3>        Ajouter / Déplacer dynamiquement un élément dans le DOM avec jQuery    </h3>
+
+    <button id="ex1" type="button">bouton 1</button>
+      <p style="display: none;">Ceci est un paragraphe</p>
+    <br><br>
+
+
+    <h3>        Ajouter / Déplacer dynamiquement un élément dans le DOM avec jQuery    </h3>
+
+    <button id="ex2" type="button">bouton 2</button>
+    <p id="p1">Helllooo je suis rania chakroun</p>
+
+      <br><br>
+
+
+      <h3> Récupérer le contenu ou afficher du texte dans un textarea en JQuery</h3>
+    <form id="f3">
+      <textarea id="mon_textarea"> bla bla bla </textarea>
+      <button class="button1" id="ex3" type="button">bouton 3</button> 
+    </form>
+    <br><br>
+
+    <h3>Empêcher de coller du texte dans un champs input de type text</h3>
+    <button id="ex4" type="button">bouton 4</button> 
+       <form id="f4"> <input type="texte" id="no_paste" /></form>
+
+    <br><br>
+
+    <h3>Ajouter un masque de saisie dans un champs input text</h3>
+    <button id="ex5" type="button">bouton 5</button> 
+    <form id="f5">
+      <imput type='text' name='cache-texte' class='only_alpha_num' id="no_paste"/>
+    </form>
+    <br><br>
+
+    <h3>Modifier l’attribut src d’une image avec JQuery</h3>
+
+    <button id="ex6" type="button">bouton 6</button> 
+    <br>
+      <img style="display: none;" id="mon_image" src=".\repas.jpg" alt="survolez cette image "/>
+      <br><br>
+
+      <h3>DatePicker de JQuery : Déployer le calendrier à l’ouverture de la page </h3>
+      <button id="ex7" type="button">bouton 7</button>
+  
+      <form id="f7" style="display: none;"></form>
+      <input id="moncalendrier" type="datepicker"  name="moncalendrier" value="23/10/2022"/>
+    </form>
+      <br><br>
+
+      <h3>Apparition d’un élément en fondu avec JQuery sur le survol de souris </h3>
+      <form id="f8">
+      <img style="display: none;" id="mon_image" src=".\repas.jpg" alt="survolez cette image "/>
+    </form>
+      <button id="ex8" type="button">bouton 8</button>
+      <br><br>
+
+
+
+      <h3>        Créer un effet d’opacité sur le survol d’une image en jQuery</h3>
+      <button id="ex9" type="button">bouton 9</button>
+      <a style="display: none;" href="#">
+        <img src=".\repas.jpg" alt ="effet sur survol de l'image"/>
+       </a>
+       <br><br>
+
+
+
+
+
+       <h3>        Détecter un click à l’extérieur d’un élément avec JQuery</h3>
+       <button id="ex10" type="button">bouton 10</button>
+           <div style="display: none;" id='mydiv'>cliquer ici </div>
+        <br><br>
+
+
+        <h3> Afficher une image différente selon la date de l’année en javascript</h3>
+        <img id='header' src="">
+        <button class="button1" id="ex11">bouton 11</button>
+        <br><br>
+
+
+
+
+
+        <H3>        not(expr) Element d’exclusion en Jquery</H6>
+          <button id="ex12" type="button">bouton 12</button>
+          <div class="maclassegenerale "> mon 1</div>
+          <div class="maclassegenerale maclasseaexclure"> mon 2</div>
+          <div class="maclassegenerale"> mon 3</div>
+          <div class="maclassegenerale maclasseaexclure"> mon 4</div>
+<br> <br>
+
+
+
+
+<h3>        Connaitre le nombre d’éléments possédant une classe définie</h3>
+
+<button id="ex13" type="button">bouton 13</button>
+             <div id="f13" style="display: none;" class="exemple">
+              <p>loooooool</p>
+              <p>loooooool</p>
+              <p>loooooool</p>
+
+             </div>
+          <br><br>
+
+
+
+
+
+          <h3>Comment faire des opérations avec les attributs de style exprimés en px</h3>
+        <button class="button1" id="ex14">bouton 14</button>
+        <br><br>
+
+
+
+
+    <h3>        lecture seule d’un textarea en JQuery</h3>
+          <button id="ex15" type="button">bouton 15</button>
+          <textarea class="elementtextarea"></textarea>
+          <br><br>
+
+
+
+
+          
+          <H3>Atteindre une ancre avec JQuery</h3>
+            <button id="ex17" type="button">bouton 17</button>
+            <div id="d17"></div>
+            <div id="redirection">
+              Cliquez moi pour déplacer la page vers l'élément d'identifiant #monancre
+            </div>
+            <div id="monancre"> Mon ancre</div>
+            
+            <br><br>
+
+
+
+
+
+            <h3>        Détecter lorsqu’on appuie sur la touche entrée en JQuery</h3>
+            <button id="ex20" type="button">bouton 20</button> 
+            <form id="f20" style="display: none;">
+              <input type="text" id="titre">
+            </form>
+            <br><br>
+
+
+        
+            <h3> Rajouter un élément dans le DOM</h3>
+            <div class="rajout"></div>
+            <button class="button1" id="ex22">bouton 22</button>
+            <br><br>
+        
+        
+            <h3>stopPropagation() ou Empêcher un évenement de se propager aux parents de l’élément</h3>
+            <div id="div_pere">
+              <div class="div_fils"></div>
+              <div class="div_fils"></div>
+              <div class="div_fils"></div>
+            </div>
+            <button class="button1" id="ex23">bouton 23</button>
+            <br><br>
+
+
+            
+        
+            <h3>Parcourir tous les éléments d’une classe en JQuery</h3>
+  
+            <button class="button1" id="ex25">bouton 25</button>
+            <br><br>
+        
+        
+            <h3>siblings() Parcours des frères immédiats d’un élément jQuery</h3>
+            <button id="ex26" type="button">bouton 26</button> 
+            <div id="parent">
+              <div> A </div>
+              <div> B </div>
+              <div id="mondiv"> C </div>
+              <div> D </div>
+            <div>
+            <br><br>
+
+
+
+
+            <h3>JQuery – Queue() : Attendre qu’une animation se termine avant de commencer la suivante</h3>
+        <div id="div1">jquery</div>
+        <div id="div2">weeeeb</div>
+        <button class="button1" id="ex28">bouton 28</button>
+        <br><br>
+
+
+        <h3>Charger JQuery directement via les librairies google</h3>
+        <button class="button1" id="ex29">bouton 29</button>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"type="text/javascript"></script>
+
+        <br><br>
+
+
+
+        
+
+        <h3>Faire clignoter un élément avec JQuery</h3>
+            <button id="ex30" type="button">bouton 30</button> 
+            <br>
+            <img style="display: none;" id="image-neon" src=".\repas.jpg"/>
+            <br><br>
+            
+        </body>    
+
+  
+</html>

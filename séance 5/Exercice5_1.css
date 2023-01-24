@@ -1,0 +1,61 @@
+body {
+    background: #ffffff;
+    }
+    
+    .container{
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: white;
+    border-radius: 10px;}
+    
+    form {
+    display: inline-block;
+    }
+    
+    label {
+      width: 110px;
+      display: inline-block;
+      vertical-align: top;
+      margin: 6px;
+    }
+    select{
+        padding: 3px 15px 3px 15px;
+        width: 251px;
+          }
+
+
+   input[type="text"],input[type="tel"]{
+    padding: 3px 15px 3px 5px;
+    width: 249px;
+      }
+    input[type="date"]{
+        padding: 3px 15px 3px 5px;
+      }
+
+    input[type="time"]{
+        padding: 3px 15px 3px 5px;
+        width: 90px;
+      }
+    input[id="submit"]{
+        background-color: #0785C8;
+        border: none;
+        color: white;
+        padding: 6px 30px;
+        margin-left: 200px;
+        border-radius: 4px;
+      }
+    input[id="cancel"]{
+        border: none;
+        padding: 6px 30px;
+        border-radius: 4px;
+      } 
+    textarea {
+      height: 100px;
+    }
+    table, td, th {
+                border: 1px solid black;
+                width: 300px;
+             }
+    

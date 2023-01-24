@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html>
+<head>
+<title>Calculette HTML</title>
+   <link rel="stylesheet" href="script3-1.css">
+    <style>
+        form {
+            background: #750909;
+            border-radius: 10px;
+            padding-left: 80px;
+            padding-right: 80px;
+
+
+
+        }
+		#resultat {
+            width: 240px;
+            height: 60px;
+            border-radius: 6px;
+			background-color: #ffffff !important; 
+        }
+		
+        input {
+            background-color: #02083b;
+            border: 0;
+            border-radius: 8px;
+            height: 50px;
+            width: 50px;
+            color: yellow;
+            font-size: 30px;
+        }
+       
+	</style>
+</head>
+<body bgcolor= "#ffffff" text= "gold">
+<table width="100%"> 
+        <tr>
+			<td width="30%">
+<form name="calculette" >
+                <h1 style="text-decoration-line: underline;font-size: 50px;color:orange ;">
+                    Calculatrice
+                </h1>
+				<input type="textfield" name="ans" value="" id="resultat"><br> <br>
+<input type="button" value="1" onClick="document.calculette.ans.value+='1'">
+<input type="button" value="2" onClick="document.calculette.ans.value+='2'">
+<input type="button" value="3" onClick="document.calculette.ans.value+='3'">
+<input type="button" value="/" onClick="document.calculette.ans.value+='/'"> <br/>
+<br><input type="button" value="4" onClick="document.calculette.ans.value+='4'">
+<input type="button" value="5" onClick="document.calculette.ans.value+='5'">
+<input type="button" value="6" onClick="document.calculette.ans.value+='6'">
+<input type="button" value="*" onClick="document.calculette.ans.value+='*'"> <br/>
+<br><input type="button" value="7" onClick="document.calculette.ans.value+='7'">
+<input type="button" value="8" onClick="document.calculette.ans.value+='8'">
+<input type="button" value="9" onClick="document.calculette.ans.value+='9'">
+<input type="button" value="-" onClick="document.calculette.ans.value+='-'"> <br/>
+<br><input type="button" value="<-" onClick="document.calculette.ans.value+='<-'">
+<input type="button" value="0" onClick="document.calculette.ans.value+='0'">
+<input type="button" value="+" onClick="document.calculette.ans.value+='+'">
+<input type="button" value="=" onClick="document. calculette.ans.value=eval(document.calculette.ans.value)"><br/>
+<br><input type="reset" value="CE" >
+<input type="button" value="+|-" onClick="document.calculette.ans.value+='0'">
+<input type="button" value="," onClick="document.calculette.ans.value+='0'">
+<input type="button" value="%" onClick="document.calculette.ans.value+='0'">
+</form>
+</td>
+            <td width="50%"> </td >
+
+</body>
+</html>

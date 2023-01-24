@@ -1,0 +1,35 @@
+body {
+background: #dfdfdf;
+}
+
+.container{
+padding: 20px;
+width: 300px;
+margin: 0 auto;
+margin-top: 40px;
+background: white;
+border-radius: 10px;}
+
+form {
+display: inline-block;
+}
+
+label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+}
+
+ textarea,input {
+  padding: 4px 15px 4px 5px;
+  width: 249px;
+}
+ 
+textarea {
+  height: 100px;
+}
+table, td, th {
+            border: 1px solid black;
+            width: 300px;
+         }

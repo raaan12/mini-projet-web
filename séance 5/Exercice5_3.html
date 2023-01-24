@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exercice Drag & Drop</title>
+
+<script>  
+
+function glisse(monEvenement) {
+        monEvenement.dataTransfer.setData("text",monEvenement.target.id);
+}
+
+function changebackground(color,monEvenement) { 
+        document.body.style.background = color; 
+        monEvenement.dataTransfer.setData("img",monEvenement.target.id);
+            }
+
+function permetDepose(monEvenement) {
+        monEvenement.preventDefault();
+}
+
+
+function depose(monEvenement) {
+    monEvenement.preventDefault();
+    var idDeLaSource=monEvenement.dataTransfer.getData("img");
+    monEvenement.target.appendChild(document.getElementById(idDeLaSource));
+}
+
+        </script>  
+
+</head>
+
+<body>
+<img id="medelaine" src="./madelaine.png" draggable="true" ondragstart="changebackground('blue',event)" ondragend="changebackground('red')"/>
+<div id="tassecafe" ondragover="permetDepose(event)" ondrop="depose(event)"> 
+     <img id="cafe" src="./tassecafe.jpg"/>
+     </div>
+</body>
+</html>
+

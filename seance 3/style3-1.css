@@ -1,0 +1,14 @@
+.button {
+        padding: 15px 100px;
+        margin: 10px 4px;
+        color: #eee;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid;
+      }
+.h1 {
+	color: #f4970e
